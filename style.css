@@ -1,0 +1,72 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	line-height: normal;
+    margin-top:-5px;
+    margin-bottom:-5px;
+}
+
+body {
+	background-image:url('images/purple-flames.gif');
+	background-repeat:repeat;
+  	background-attachment: fixed;
+}
+
+.flex-container {
+  	display: flex;
+}
+
+
+.flex-container > div {
+  background-color: #1f001f;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 6px solid #340067;
+  border-radius: 10px;
+}
+@font-face {
+	font-family: nasalizationregular;
+	src: url("font.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.center{
+  margin: auto;
+}
+
+details > summary {
+	list-style: none;
+}
+
+a:link {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #FFFFFF;
+}
+a:visited {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #ff85ff;
+}
+h1 {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #c7c7c7;
+}
+p {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #c7c7c7;
+  	font-size: 15px;
+}
